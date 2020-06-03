@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    
+    font-family: Calibri;
+	padding: 10px 20px;
+	background: #43cea2;
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+}
+
+h2 {
+	color: #FFFFFF;
+	font-size: 35px;
+	padding: 10px;
+	border-radius:0 20px;
+	background: #43cea2;
+    background: -webkit-linear-gradient(to right, #43cea2, #185a9d);
+	background: linear-gradient(to right, #43cea2, #185a9d); 
+	text-align: center;
+}
+
+#final {
+	height: 720px;
+	margin-top: 100px;
+	
+	/*podria elegirse una foto para el fondo: background:url(../img/aaaa.jpg); */
+	-webkit-background-size: cover;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	}
+
+.contenedorformulario .form .form-header .form-title {
+	font-weight: normal;
+	font-family: sans-serif;
+	text-align: center;
+	color: #185a9d;
+	padding: 14px 0;
+	font-size: 35px;
+}
+
+
+.contenedorformulario .form .form-header .form-title span {
+	color: #43cea2;
+}
+
+.contenedorformulario .form {
+	background: white;
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 4px;
+}
+
+.contenedorformulario .form {
+	display: block;
+	color: #43cea2; 
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: relative;
+}
+
+.contenedorformulario .form .form-input, .form-textarea {
+	background:#185a9d;
+	border:none;
+	outline: none;
+	border-bottom: 2px solid #43cea2;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:placeholder-shown {
+	color: whitesmoke;
+}
+
+::placeholder {
+	color: whitesmoke;
+}
+
+.contenedorformulario .form .form-textarea {
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.contenedorformulario .form .btn-submit {
+	width: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	outline: none;
+	background: #00ffae ;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	border-radius: 6px;
+}
+
+.contenedorformulario .form .btn-submit:hover{
+	background:  #00ffae;
+	color: #185a9d;
+}
+
+
+
+
