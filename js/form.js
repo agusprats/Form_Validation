@@ -35,4 +35,4 @@ function iniciar(){
                }
                }
                window.addEventListener("load", iniciar, false);
-               alert("Su mensaje se ha enviado");
+              
